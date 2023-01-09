@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,500;1,300&display=swap');
+/* Color pallete: 
+xiketic #1B1821,
+cultured white #F6F5F3,
+dark kiver #464955,
+light gray #D2D6D6 */
+
+/* General elements style */
+*{
+   /* margin: 0;
+    padding:0;
+    box-sizing: border-box; 
+	*/
+}   
+body {
+      font-family: 'Kanit', sans-serif;
+      background: url("./images/back1.png")  no-repeat center center fixed;
+	  color:#1B1821;
+    }
+a {
+	text-decoration: none;
+	}
+	
+/* Special General elements style */
+.gray-background{
+	background: #D2D6D6;
+	text-align: center;
+}
+	
+/* the navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1B1821;
+  color: white;
+  border-radius: 6px;
+}
+nav a {
+  color: white;
+  font-size: 100;
+  padding: 14px 16px;
+}
+nav a:hover {
+  background-color: #464955;
+  color: #F6F5F3;
+  border-collapse: collapse;
+  border-radius: 4px;
+}
+
+
+/* the TEXT table element */
+.table-container {
+  background-color: #F6F5F3;
+  text-align: left;
+  border-radius: 6px;
+  padding: 20px;
+  width: 390px;
+  margin-top: 20%;
+  margin-right:10%;
+  margin-bottom:20%;
+  margin-left:10%;
+}
+/* the table */
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+}
+table td {
+  border: 0px solid black;
+  padding: 12px;
+  margin: 10 auto;
+}
+/* the button */
+.about-button {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1em;
+  background-color: #1B1821;
+  color: #F6F5F3;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.about-button:hover {
+  background-color: #464955;
+  color: #F6F5F3;
+}
+
+
+/* the form */
+form {
+  background-color: #F6F5F3;
+  padding: 20px;
+  border: 0px solid #000;
+  border-radius: 6px;
+  width: 350px;
+  margin-top: 20%;
+  margin-left:5%;
+}
+/* the input and textarea fields */
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background: #F6F5F3;
+}
+/* the submit button */
+input[type=submit] {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1em;
+  background-color: #1B1821;
+  color: #F6F5F3;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #464955;
+}
+
+
+
+
+
