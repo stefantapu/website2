@@ -32,12 +32,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1B1821;
-  color: white;
+  background: rgba(255,255,255,0.5);
+  border: 2px solid #000;
   border-radius: 6px;
 }
 nav a {
-  color: white;
+  color: black;
   font-size: 100;
   padding: 14px 16px;
 }
@@ -48,10 +48,21 @@ nav a:hover {
   border-radius: 4px;
 }
 
+.search-button {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1em;
+  background-color: #1B1821;
+  color: #F6F5F3;
+  padding: 12px 20px;
+  border: none;
+  border-radius:6px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
 /* the TEXT table element */
 .table-container {
-  background-color: #F6F5F3;
   text-align: left;
   border-radius: 6px;
   padding: 20px;
@@ -60,6 +71,8 @@ nav a:hover {
   margin-right:10%;
   margin-bottom:20%;
   margin-left:10%;
+      	background: rgba(255,255,255,0.5);
+	  border: 2px solid #000;
 }
 /* the table */
 table {
@@ -89,11 +102,11 @@ table td {
 }
 
 
-/* the form */
+/* the contact form */
 form {
-  background-color: #F6F5F3;
+  background: rgba(255,255,255,0.5);
+  border: 2px solid #000;
   padding: 20px;
-  border: 0px solid #000;
   border-radius: 6px;
   width: 350px;
   margin-top: 20%;
@@ -124,6 +137,28 @@ input[type=submit] {
 }
 input[type=submit]:hover {
   background-color: #464955;
+}
+
+/*about page*/
+
+.about-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space around;
+	color: #1B1821;
+	width: 50vw;
+	margin: auto;
+	background: rgba(255,255,255,0.5);
+	  border: 2px solid #000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 6px;
+    padding: 20px;
+
+  border-radius: 6px;
+  width: 350px;
+  margin-top: 20%;
+  margin-left:5%;
 }
 
 

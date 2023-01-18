@@ -18,19 +18,22 @@ body {
     }
 a {
 	text-decoration: none;
+	color: #F6F5F3;
 	}
-	
+img {
+	border-radius: 6px;
+}
 /* Special General elements style */
 
 .main-container{
 	background: #1B1821;
 	margin: 20px;
     padding:20px;
-	height: 90vh;
-	box-shadow: 0 0 30px black;
+	height: 90%;
+	box-shadow: 0 0 30px white;
 	border-radius: 6px;
 }
-/* the navigation bar */
+/* the navigation bar style */
 nav {
 	margin: 20px ;
     padding:20px;
@@ -51,6 +54,22 @@ nav a:hover {
 
 }
 
+/* Index Style Seccion */
+
+.search-button {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1em;
+  background-color: #1B1821;
+  color: #F6F5F3;
+  padding: 12px 20px;
+  border: none;
+  border-radius:6px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
 /* the TEXT table element */
 .table-container {
   background:  #D2D6D6; 
@@ -59,7 +78,9 @@ nav a:hover {
   padding: 30px;
   width:50%;
   text-align: center;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 
 }
@@ -79,8 +100,10 @@ table {
   color: #F6F5F3;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
+  	 margin-top: 20px;
+  margin-bottom: 20px;
 }
 .about-button:hover {
   background-color: #464955;
@@ -106,12 +129,11 @@ input[type=text], textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+
   resize: vertical;
   background: #F6F5F3;
 }
-/* submit button */
+/* form submit button */
 input[type=submit] {
   font-family: 'Kanit', sans-serif;
   font-size: 1em;
@@ -126,7 +148,50 @@ input[type=submit]:hover {
   background-color: #464955;
 }
 
+/*about page*/
 
+.about-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space around;
+	color: #1B1821;
+	width: 50vw;
+	margin: auto;
 
+}
+
+.item1 {
+	padding: 12px 20px;
+	background: #D2D6D6;
+	 margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.item2 {
+		padding: 12px 20px;
+	background: #D2D6D6;
+	 margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.item3 {
+	order:3;
+		padding: 12px 20px;
+	background: #D2D6D6;
+	 margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.item4 {
+	order: 3;
+		padding: 12px 20px;
+	background: #D2D6D6;
+	 margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
 
 

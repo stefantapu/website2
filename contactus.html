@@ -4,33 +4,34 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	 <link rel="stylesheet" type="text/css" href="./styles/style.css" /> 
-<!--
-	<link rel="stylesheet" type="text/css" href="./styles/style2.css" />
+    <!--
+		<link rel="stylesheet" type="text/css" href="./styles/style.css" /> 
 	-->
+		<link rel="stylesheet" type="text/css" href="./styles/style2.css" />
+	
 	<title>Contact</title>
 </head>
 <body>
-<main class="main-container">
+<div class="main-container">
     <!-- top horizontal menu -->
-    <nav class="menu">
+    <div class="menu">
 		<a href="index.html">Home</a>
-        <a href="#">Properties</a>
-        <a href="#">About</a>
+        <a href="properties.html">Properties</a>
+        <a href="about.html">About</a>
         <a href="contactus.html">Contact</a>
-    </nav>
+    </div>
 
-<!-- form element -->
-<form>
-  <h1>Contact Form</h1>
-  <label for="name">Name</label><br>
-  <input type="text" id="name" name="name"><br>
-  <label for="email">Email</label><br>
-  <input type="text" id="email" name="email"><br>
-  <label for="message">Message</label><br>
-  <textarea id="message" name="message" rows="5" cols="30"></textarea><br>
-  <input type="submit" value="Submit">
+<!-- targetm element -->
+<form action="URL">
+  <h1>Contact</h1>
+  <p >Name</p>
+  <p><input type="text" id="name" name="name"/></p>
+  <p >Email</p>
+  <p><input type="text" id="email" name="email"/></p>
+  <p >Message</p>
+  <p><textarea id="message" name="message" rows="5" cols="30"></textarea></p>
+  <p><input type="submit" value="Submit"/></p>
 </form>
-</main>
+</div>
 </body>
 </html>
