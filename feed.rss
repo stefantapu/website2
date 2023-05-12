@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Norway House</title>
+        <link>http://www.example.com/</link>
+        <description>Norway House - A cozy house in the north</description>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 12 May 2023 12:00:00 GMT</lastBuildDate>
+        <item>
+            <title>Home Name</title>
+            <link>http://www.example.com/properties/property1.html</link>
+            <description>A cozy house in the north is a comfortable and welcoming home located in the northern region of a particular area.</description>
+            <pubDate>Fri, 12 May 2023 10:00:00 GMT</pubDate>
+            <guid isPermaLink="false">property1</guid>
+        </item>
+        <item>
+            <title>Home Name</title>
+            <link>http://www.example.com/properties/property2.html</link>
+            <description>A cozy house in the north is a comfortable and welcoming home located in the northern region of a particular area.</description>
+            <pubDate>Fri, 12 May 2023 10:00:00 GMT</pubDate>
+            <guid isPermaLink="false">property2</guid>
+        </item>
+        <item>
+            <title>Home Name</title>
+            <link>http://www.example.com/properties/property3.html</link>
+            <description>A cozy house in the north is a comfortable and welcoming home located in the northern region of a particular area.</description>
+            <pubDate>Fri, 12 May 2023 10:00:00 GMT</pubDate>
+            <guid isPermaLink="false">property3</guid>
+        </item>
+        <item>
+            <title>Home Name</title>
+            <link>http://www.example.com/properties/property4.html</link>
+            <description>A cozy house in the north is a comfortable and welcoming home located in the northern region of a particular area.</description>
+            <pubDate>Fri, 12 May 2023 10:00:00 GMT</pubDate>
+            <guid isPermaLink="false">property4</guid>
+        </item>
+    </channel>
+</rss>
